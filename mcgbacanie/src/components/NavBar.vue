@@ -33,6 +33,10 @@
           <li class="nav-item">
             <router-link to="/about" class="nav-link">Despre noi</router-link>
           </li>
+          <!-- Link catre pagina Oferta -->
+          <li class="nav-item">
+            <router-link to="/oferta-form" class="nav-link">Solicita Oferta</router-link>
+          </li>
         </ul>
       </div>
     </div>

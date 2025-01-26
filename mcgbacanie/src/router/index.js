@@ -7,6 +7,7 @@ import ProductForm from '@/views/ProductForm.vue';
 import ProductDetails from '@/views/ProductDetails.vue';
 import ProductEdit from '@/views/ProductEdit.vue';
 import AboutUs from '@/views/AboutUs.vue';
+import OfertaForm from '@/views/OfertaForm.vue';
 
 // Definim rutele si asociem componentele corespunzatoare
 const routes = [
@@ -20,7 +21,9 @@ const routes = [
   },
   { path: '/product-edit', component: ProductEdit }, // Editare produse
   { path: '/about', component: AboutUs }, // Pagina "Despre noi"
+  {path : '/oferta-form', component: OfertaForm}
 ];
+
 
 // Cream router-ul utilizand modul istoric al browserului
 const router = createRouter({
